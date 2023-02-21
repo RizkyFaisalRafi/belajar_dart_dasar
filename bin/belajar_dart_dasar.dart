@@ -4,13 +4,23 @@
 //   print('Hello world: ${belajar_dart_dasar.calculate()}!');
 // }
 
-class student {
-  void test_method() {
-    print("This is a test method");
-  }
-}
+// class Student {
+//   void test_method() {
+//     print("This is a test method");
+//   }
+// }
 
-void main() {
-  student s1 = student();
-  s1.test_method();
+// void main() {
+//   Student s1 = Student();
+//   s1.test_method();
+// }
+
+import 'dart:io';
+
+void main(List<String> args) {
+    print("Enter your name?");
+    String? name = stdin.readLineSync();
+ 
+    // Printing the name
+    print("Hello, $name!");
 }
